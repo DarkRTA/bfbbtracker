@@ -1,0 +1,363 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<stetic-interface>
+  <configuration>
+    <images-root-path>..</images-root-path>
+  </configuration>
+  <import>
+    <widget-library name="glade-sharp, Version=2.12.0.0, Culture=neutral, PublicKeyToken=35e10195dab3c99f" />
+    <widget-library name="../bin/Debug/bfbbtracker.exe" internal="true" />
+  </import>
+  <widget class="Gtk.Window" id="MainWindow" design-size="596 198">
+    <property name="MemberName" />
+    <property name="Title" translatable="yes">BFBB Tracker</property>
+    <property name="WindowPosition">CenterOnParent</property>
+    <property name="Resizable">False</property>
+    <property name="AllowGrow">False</property>
+    <signal name="DeleteEvent" handler="OnDeleteEvent" />
+    <child>
+      <widget class="Gtk.VBox" id="vbox3">
+        <property name="MemberName" />
+        <property name="Spacing">6</property>
+        <property name="BorderWidth">10</property>
+        <child>
+          <widget class="Gtk.Label" id="label5">
+            <property name="MemberName" />
+            <property name="Xalign">0</property>
+            <property name="LabelProp" translatable="yes">Runner 1</property>
+          </widget>
+          <packing>
+            <property name="Position">0</property>
+            <property name="AutoSize">False</property>
+            <property name="Expand">False</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="Gtk.HBox" id="hbox3">
+            <property name="MemberName" />
+            <property name="Homogeneous">True</property>
+            <child>
+              <widget class="bfbbtracker.Icon" id="icon1">
+                <property name="MemberName" />
+                <property name="WidthRequest">64</property>
+                <property name="HeightRequest">64</property>
+                <property name="Events">ButtonPressMask</property>
+                <property name="image_name">JF</property>
+              </widget>
+              <packing>
+                <property name="Position">0</property>
+                <property name="AutoSize">True</property>
+                <property name="Expand">False</property>
+                <property name="Fill">False</property>
+              </packing>
+            </child>
+            <child>
+              <widget class="bfbbtracker.Icon" id="icon2">
+                <property name="MemberName" />
+                <property name="WidthRequest">64</property>
+                <property name="HeightRequest">64</property>
+                <property name="Events">ButtonPressMask</property>
+                <property name="image_name">DT</property>
+              </widget>
+              <packing>
+                <property name="Position">1</property>
+                <property name="AutoSize">True</property>
+                <property name="Expand">False</property>
+                <property name="Fill">False</property>
+              </packing>
+            </child>
+            <child>
+              <widget class="bfbbtracker.Icon" id="icon3">
+                <property name="MemberName" />
+                <property name="WidthRequest">64</property>
+                <property name="HeightRequest">64</property>
+                <property name="Events">ButtonPressMask</property>
+                <property name="image_name">GL</property>
+              </widget>
+              <packing>
+                <property name="Position">2</property>
+                <property name="AutoSize">True</property>
+                <property name="Expand">False</property>
+                <property name="Fill">False</property>
+              </packing>
+            </child>
+            <child>
+              <widget class="bfbbtracker.Icon" id="icon4">
+                <property name="MemberName" />
+                <property name="WidthRequest">64</property>
+                <property name="HeightRequest">64</property>
+                <property name="Events">ButtonPressMask</property>
+                <property name="image_name">RB</property>
+              </widget>
+              <packing>
+                <property name="Position">3</property>
+                <property name="AutoSize">True</property>
+                <property name="Expand">False</property>
+                <property name="Fill">False</property>
+              </packing>
+            </child>
+            <child>
+              <widget class="bfbbtracker.Icon" id="icon5">
+                <property name="MemberName" />
+                <property name="WidthRequest">64</property>
+                <property name="HeightRequest">64</property>
+                <property name="Events">ButtonPressMask</property>
+                <property name="image_name">BRC</property>
+              </widget>
+              <packing>
+                <property name="Position">4</property>
+                <property name="AutoSize">True</property>
+                <property name="Expand">False</property>
+                <property name="Fill">False</property>
+              </packing>
+            </child>
+            <child>
+              <widget class="bfbbtracker.Icon" id="icon6">
+                <property name="MemberName" />
+                <property name="WidthRequest">64</property>
+                <property name="HeightRequest">64</property>
+                <property name="Events">ButtonPressMask</property>
+                <property name="image_name">SM</property>
+              </widget>
+              <packing>
+                <property name="Position">5</property>
+                <property name="AutoSize">True</property>
+                <property name="Expand">False</property>
+                <property name="Fill">False</property>
+              </packing>
+            </child>
+            <child>
+              <widget class="bfbbtracker.Icon" id="icon7">
+                <property name="MemberName" />
+                <property name="WidthRequest">64</property>
+                <property name="HeightRequest">64</property>
+                <property name="Events">ButtonPressMask</property>
+                <property name="image_name">KF</property>
+              </widget>
+              <packing>
+                <property name="Position">6</property>
+                <property name="AutoSize">True</property>
+                <property name="Expand">False</property>
+                <property name="Fill">False</property>
+              </packing>
+            </child>
+            <child>
+              <widget class="bfbbtracker.Icon" id="icon8">
+                <property name="MemberName" />
+                <property name="WidthRequest">64</property>
+                <property name="HeightRequest">64</property>
+                <property name="Events">ButtonPressMask</property>
+                <property name="image_name">FDG</property>
+              </widget>
+              <packing>
+                <property name="Position">7</property>
+                <property name="AutoSize">True</property>
+                <property name="Expand">False</property>
+                <property name="Fill">False</property>
+              </packing>
+            </child>
+            <child>
+              <widget class="bfbbtracker.Icon" id="icon9">
+                <property name="MemberName" />
+                <property name="WidthRequest">64</property>
+                <property name="HeightRequest">64</property>
+                <property name="Events">ButtonPressMask</property>
+                <property name="image_name">SBD</property>
+              </widget>
+              <packing>
+                <property name="Position">8</property>
+                <property name="AutoSize">True</property>
+                <property name="Expand">False</property>
+                <property name="Fill">False</property>
+              </packing>
+            </child>
+          </widget>
+          <packing>
+            <property name="Position">1</property>
+            <property name="AutoSize">True</property>
+            <property name="Expand">False</property>
+            <property name="Fill">False</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="Gtk.HBox" id="hbox4">
+            <property name="MemberName" />
+            <property name="Homogeneous">True</property>
+            <child>
+              <widget class="bfbbtracker.Icon" id="icon10">
+                <property name="MemberName" />
+                <property name="WidthRequest">64</property>
+                <property name="HeightRequest">64</property>
+                <property name="Events">ButtonPressMask</property>
+                <property name="image_name">JF</property>
+              </widget>
+              <packing>
+                <property name="Position">0</property>
+                <property name="AutoSize">True</property>
+                <property name="Expand">False</property>
+                <property name="Fill">False</property>
+              </packing>
+            </child>
+            <child>
+              <widget class="bfbbtracker.Icon" id="icon11">
+                <property name="MemberName" />
+                <property name="WidthRequest">64</property>
+                <property name="HeightRequest">64</property>
+                <property name="Events">ButtonPressMask</property>
+                <property name="image_name">DT</property>
+              </widget>
+              <packing>
+                <property name="Position">1</property>
+                <property name="AutoSize">True</property>
+                <property name="Expand">False</property>
+                <property name="Fill">False</property>
+              </packing>
+            </child>
+            <child>
+              <widget class="bfbbtracker.Icon" id="icon12">
+                <property name="MemberName" />
+                <property name="WidthRequest">64</property>
+                <property name="HeightRequest">64</property>
+                <property name="Events">ButtonPressMask</property>
+                <property name="image_name">GL</property>
+              </widget>
+              <packing>
+                <property name="Position">2</property>
+                <property name="AutoSize">True</property>
+                <property name="Expand">False</property>
+                <property name="Fill">False</property>
+              </packing>
+            </child>
+            <child>
+              <widget class="bfbbtracker.Icon" id="icon13">
+                <property name="MemberName" />
+                <property name="WidthRequest">64</property>
+                <property name="HeightRequest">64</property>
+                <property name="Events">ButtonPressMask</property>
+                <property name="image_name">RB</property>
+              </widget>
+              <packing>
+                <property name="Position">3</property>
+                <property name="AutoSize">True</property>
+                <property name="Expand">False</property>
+                <property name="Fill">False</property>
+              </packing>
+            </child>
+            <child>
+              <widget class="bfbbtracker.Icon" id="icon14">
+                <property name="MemberName" />
+                <property name="WidthRequest">64</property>
+                <property name="HeightRequest">64</property>
+                <property name="Events">ButtonPressMask</property>
+                <property name="image_name">BRC</property>
+              </widget>
+              <packing>
+                <property name="Position">4</property>
+                <property name="AutoSize">True</property>
+                <property name="Expand">False</property>
+                <property name="Fill">False</property>
+              </packing>
+            </child>
+            <child>
+              <widget class="bfbbtracker.Icon" id="icon15">
+                <property name="MemberName" />
+                <property name="WidthRequest">64</property>
+                <property name="HeightRequest">64</property>
+                <property name="Events">ButtonPressMask</property>
+                <property name="image_name">SM</property>
+              </widget>
+              <packing>
+                <property name="Position">5</property>
+                <property name="AutoSize">True</property>
+                <property name="Expand">False</property>
+                <property name="Fill">False</property>
+              </packing>
+            </child>
+            <child>
+              <widget class="bfbbtracker.Icon" id="icon16">
+                <property name="MemberName" />
+                <property name="WidthRequest">64</property>
+                <property name="HeightRequest">64</property>
+                <property name="Events">ButtonPressMask</property>
+                <property name="image_name">KF</property>
+              </widget>
+              <packing>
+                <property name="Position">6</property>
+                <property name="AutoSize">True</property>
+                <property name="Expand">False</property>
+                <property name="Fill">False</property>
+              </packing>
+            </child>
+            <child>
+              <widget class="bfbbtracker.Icon" id="icon17">
+                <property name="MemberName" />
+                <property name="WidthRequest">64</property>
+                <property name="HeightRequest">64</property>
+                <property name="Events">ButtonPressMask</property>
+                <property name="image_name">FDG</property>
+              </widget>
+              <packing>
+                <property name="Position">7</property>
+                <property name="AutoSize">True</property>
+                <property name="Expand">False</property>
+                <property name="Fill">False</property>
+              </packing>
+            </child>
+            <child>
+              <widget class="bfbbtracker.Icon" id="icon18">
+                <property name="MemberName" />
+                <property name="WidthRequest">64</property>
+                <property name="HeightRequest">64</property>
+                <property name="Events">ButtonPressMask</property>
+                <property name="image_name">SBD</property>
+              </widget>
+              <packing>
+                <property name="Position">8</property>
+                <property name="AutoSize">True</property>
+                <property name="Expand">False</property>
+                <property name="Fill">False</property>
+              </packing>
+            </child>
+          </widget>
+          <packing>
+            <property name="PackType">End</property>
+            <property name="Position">2</property>
+            <property name="AutoSize">True</property>
+            <property name="Expand">False</property>
+            <property name="Fill">False</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="Gtk.Label" id="label6">
+            <property name="MemberName" />
+            <property name="Xalign">0</property>
+            <property name="LabelProp" translatable="yes">Runner 2</property>
+          </widget>
+          <packing>
+            <property name="PackType">End</property>
+            <property name="Position">3</property>
+            <property name="AutoSize">True</property>
+            <property name="Expand">False</property>
+            <property name="Fill">False</property>
+          </packing>
+        </child>
+      </widget>
+    </child>
+  </widget>
+  <widget class="Gtk.Bin" id="bfbbtracker.Icon" design-size="300 300">
+    <property name="MemberName" />
+    <property name="WidthRequest">64</property>
+    <property name="HeightRequest">64</property>
+    <property name="Visible">False</property>
+    <child>
+      <widget class="Gtk.EventBox" id="eventbox">
+        <property name="MemberName" />
+        <signal name="ButtonPressEvent" handler="OnEventboxButtonPressEvent" />
+        <child>
+          <widget class="Gtk.Image" id="image">
+            <property name="MemberName" />
+          </widget>
+        </child>
+      </widget>
+    </child>
+  </widget>
+</stetic-interface>
